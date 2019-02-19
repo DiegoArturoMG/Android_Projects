@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MainFragment"
+    android:background="#fb0a7802"
+    android:padding="25dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Fragement"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="25sp"
+    />
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"
+        android:background="#025902"
+        android:textColor="#fff"
+        android:text="ListView"
+        android:padding="2dp"
+    />
+
+    <Button
+        android:id="@+id/btnGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnList"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"
+        android:background="#025902"
+        android:textColor="#fff"
+        android:text="GridView"
+    />
+
+</RelativeLayout>

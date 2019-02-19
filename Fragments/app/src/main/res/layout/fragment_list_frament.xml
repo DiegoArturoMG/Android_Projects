@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ListFrament"
+    android:orientation="vertical"
+    android:background="#012903"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Spotify"
+        android:textStyle="bold"
+        android:background="#012903"
+        android:textColor="#deeaf7"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+    />
+
+    <ListView
+        android:id="@+id/lvCanciones"
+        tools:listitem="@layout/fragment_listview_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    >
+
+    </ListView>
+
+</LinearLayout>

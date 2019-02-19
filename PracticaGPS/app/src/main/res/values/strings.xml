@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PracticaGPS</string>
+    <string name="api_key">AIzaSyBcwLe5e1BPUybODfFw_6j1bt_efosuGSI</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

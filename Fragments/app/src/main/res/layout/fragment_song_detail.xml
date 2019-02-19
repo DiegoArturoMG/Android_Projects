@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SongDetailFragment"
+    android:background="#095802"
+    android:orientation="vertical"
+    android:paddingTop="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancion"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:gravity="center"
+        />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#024b01">
+
+            <TextView
+                android:id="@+id/tvDTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Title"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                />
+
+            <TextView
+                android:id="@+id/tvDArtista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:text="Artist"
+                android:textColor="#ffffff"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDduracion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Duration"
+            android:textSize="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:textColor="#ffffff"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

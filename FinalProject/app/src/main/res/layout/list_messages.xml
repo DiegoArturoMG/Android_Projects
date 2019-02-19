@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvMensajeList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mensaje"
+        android:background="#80da69"
+        android:layout_weight="1"
+    />
+
+    <TextView
+        android:id="@+id/tvEmisorList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="emisor"
+        android:gravity="end"
+        android:layout_weight="1"
+        android:background="#5abc41"
+    />
+
+</LinearLayout>

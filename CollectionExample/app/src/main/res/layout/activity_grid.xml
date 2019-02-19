@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".GridActivity"
+    android:background="#063802">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Spotify"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="30sp"
+    />
+
+    <GridView
+        android:id="@+id/gvCanciones"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:verticalSpacing="5dp"
+        tools:listitem="@layout/gridview_item_layout"
+    />
+
+</LinearLayout>
