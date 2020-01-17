@@ -1,1 +1,1 @@
-Several excercises of android course
+Several excercises for android course
